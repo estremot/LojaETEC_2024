@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LojaETEC</RootNamespace>
+    <AssemblyName>LojaETEC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="forms\FrmBairro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmBairro.Designer.cs">
+      <DependentUpon>FrmBairro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FrmCep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmCep.Designer.cs">
+      <DependentUpon>FrmCep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FrmOperadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmOperadora.Designer.cs">
+      <DependentUpon>FrmOperadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FrmRua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmRua.Designer.cs">
+      <DependentUpon>FrmRua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FrmTrabalho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmTrabalho.Designer.cs">
+      <DependentUpon>FrmTrabalho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lojaetec2024DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lojaetec2024DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\FrmBairro.resx">
+      <DependentUpon>FrmBairro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FrmCep.resx">
+      <DependentUpon>FrmCep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FrmOperadora.resx">
+      <DependentUpon>FrmOperadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FrmRua.resx">
+      <DependentUpon>FrmRua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FrmTrabalho.resx">
+      <DependentUpon>FrmTrabalho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="lojaetec2024DataSet.xsc">
+      <DependentUpon>lojaetec2024DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lojaetec2024DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lojaetec2024DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lojaetec2024DataSet.xss">
+      <DependentUpon>lojaetec2024DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\AddCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\CadProdutos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\CadVendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Relatorios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\loja 512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\estrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\bairro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Loja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\codigo-postal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Apagar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Primeiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Anterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Proximo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Ultimo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Procurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\trabalho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\chamada-telefonica.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
