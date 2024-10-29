@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|e:\\escolas\\etec\\2024\\aulas\\2ds\\ds\\aula 22_10\\aulads_2210\\lojaetec\\forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|solutionrelative:forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|solutionrelative:forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|e:\\escolas\\etec\\2024\\aulas\\2ds\\ds\\aula 22_10\\aulads_2210\\lojaetec\\forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|solutionrelative:forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|e:\\escolas\\etec\\2024\\aulas\\2ds\\ds\\aula 22_10\\aulads_2210\\lojaetec\\forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|solutionrelative:forms\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\frmtrabalho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|e:\\escolas\\etec\\2024\\aulas\\2ds\\ds\\aula 22_10\\aulads_2210\\lojaetec\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AEA845DF-B7D8-4F10-ABA9-7DE84BC2E39C}|LojaETEC.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmClientes.cs",
               "DocumentMoniker": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\FrmClientes.cs",
               "RelativeDocumentMoniker": "forms\\FrmClientes.cs",
               "ToolTip": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\FrmClientes.cs",
               "RelativeToolTip": "forms\\FrmClientes.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAwwHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwG4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T14:04:44.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmClientes.cs [Design]",
               "DocumentMoniker": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\FrmClientes.cs",
               "RelativeDocumentMoniker": "forms\\FrmClientes.cs",
@@ -103,8 +103,7 @@
               "RelativeToolTip": "forms\\FrmTrabalho.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAowDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:01:51.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T14:01:51.389Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "ToolTip": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\FrmTrabalho.cs [Design]",
               "RelativeToolTip": "forms\\FrmTrabalho.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:28:03.813Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-22T13:28:03.813Z"
             },
             {
               "$type": "Document",
@@ -127,8 +125,7 @@
               "ToolTip": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\FrmPrincipal.cs [Design]",
               "RelativeToolTip": "FrmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T12:35:53.524Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-06T12:35:53.524Z"
             },
             {
               "$type": "Document",
@@ -139,8 +136,7 @@
               "ToolTip": "E:\\Escolas\\ETEC\\2024\\Aulas\\2DS\\DS\\Aula 22_10\\AulaDS_2210\\LojaETEC\\forms\\FrmRua.cs [Design]",
               "RelativeToolTip": "forms\\FrmRua.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:40:46.975Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-06T14:40:46.975Z"
             },
             {
               "$type": "Document",
@@ -164,8 +160,7 @@
               "RelativeToolTip": "FrmPrincipal.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAwwEwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:34:45.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T13:34:45.988Z"
             },
             {
               "$type": "Document",
