@@ -143,6 +143,16 @@ namespace LojaETEC.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cliente {
+            get {
+                object obj = ResourceManager.GetObject("cliente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap codigo_postal {
             get {
                 object obj = ResourceManager.GetObject("codigo-postal", resourceCulture);

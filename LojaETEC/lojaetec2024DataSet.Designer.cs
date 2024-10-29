@@ -18365,12 +18365,25 @@ SELECT codcliente, nomecliente, foto, datanasc, codsexo, codrua, codbairro, codc
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT codcliente, nomecliente, foto, datanasc, codsexo, codrua, codbairro, codce" +
                 "p, codcidade, coduf, salario, codtrabalho, numerocasa FROM dbo.cliente";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = @"SELECT        cliente.codcliente, cliente.nomecliente, cliente.foto, cliente.datanasc, cliente.salario, cliente.numerocasa, rua.nomerua, sexo.nomecidadesexo, bairro.nomebairro, cep.numerocep, cidade.nomecidade, uf.nomeuf, 
+                         trabalho.nomecidadetrabalho
+FROM            cliente INNER JOIN
+                         rua ON cliente.codrua = rua.codrua INNER JOIN
+                         sexo ON cliente.codsexo = sexo.codsexo INNER JOIN
+                         bairro ON cliente.codbairro = bairro.codbairro INNER JOIN
+                         cep ON cliente.codcep = cep.codcep INNER JOIN
+                         cidade ON cliente.codcidade = cidade.codcidade INNER JOIN
+                         uf ON cliente.coduf = uf.coduf INNER JOIN
+                         trabalho ON cliente.codtrabalho = trabalho.codtrabalho";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -18392,6 +18405,30 @@ SELECT codcliente, nomecliente, foto, datanasc, codsexo, codrua, codbairro, codc
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual lojaetec2024DataSet.clienteDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            lojaetec2024DataSet.clienteDataTable dataTable = new lojaetec2024DataSet.clienteDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillBy(lojaetec2024DataSet.clienteDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual lojaetec2024DataSet.clienteDataTable GetDataBy() {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
             lojaetec2024DataSet.clienteDataTable dataTable = new lojaetec2024DataSet.clienteDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;

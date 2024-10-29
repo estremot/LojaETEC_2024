@@ -58,6 +58,12 @@
     <Compile Include="forms\FrmCep.Designer.cs">
       <DependentUpon>FrmCep.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\FrmOperadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,9 @@
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="lojaetec2024DataSet.cs">
+      <DependentUpon>lojaetec2024DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="lojaetec2024DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -94,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\FrmCep.resx">
       <DependentUpon>FrmCep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\FrmOperadora.resx">
       <DependentUpon>FrmOperadora.cs</DependentUpon>
@@ -206,6 +218,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imagens\chamada-telefonica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\cliente.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

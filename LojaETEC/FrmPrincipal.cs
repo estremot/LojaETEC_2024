@@ -70,5 +70,11 @@ namespace LojaETEC
             FrmOperadora frmOperadora = new FrmOperadora();
             frmOperadora.ShowDialog();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmClientes frmClientes = new FrmClientes();
+            frmClientes.ShowDialog();
+        }
     }
 }

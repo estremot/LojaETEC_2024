@@ -14,26 +14,26 @@ insert into sexo (nomesexo) values ('FEMININO'), ('MASCULINO');
 
 -- PRIMEIRA TELA DE CADASTRO DA APLICAÇÃO UTILIZANDO C#
 
---3) RUA = {CODRUA, nomecidadeRUA}
+--3) RUA = {CODRUA, nomeRUA} OK
 create table rua(
 	codrua integer identity primary key,
 	nomerua varchar(80) not null unique
 );
 
 
---4) BAIRRO = {CODBAIRRO, nomecidadeBAIRRO
+--4) BAIRRO = {CODBAIRRO, nomeBAIRRO} OK
 create table bairro(
 	codbairro integer identity primary key,
 	nomebairro varchar(80) not null unique
 );
 
---5) CEP = {CODCEP, NUMEROCEP}
+--5) CEP = {CODCEP, NUMEROCEP} OK
 create table cep(
 	codcep integer identity primary key,
 	numerocep char(9) not null unique
 );
 
---7) UF = {CODUF, nomecidadeUF, SIGLA}
+--7) UF = {CODUF, nomeUF, SIGLA} OK
 create table uf(
 	coduf integer identity primary key,
 	nomeuf varchar(80) not null unique,
@@ -68,7 +68,7 @@ Insert into Uf (nomeuf, sigla) values ('São Paulo', 'SP');
 Insert into Uf (nomeuf, sigla) values ('Sergipe', 'SE');
 Insert into Uf (nomeuf, sigla) values ('Tocantins', 'TO');
 
---6) CIDADE = {CODCIDADE, nomecidadeCIDADE}
+--6) CIDADE = {CODCIDADE, nomeCIDADE} OK
 create table cidade(
 	codcidade integer identity primary key,
 	nomecidade varchar(80) not null unique
@@ -5646,7 +5646,7 @@ Insert into cidade ( nomecidade) values ('Vila Boa');
 Insert into cidade ( nomecidade) values ('Vila Propício');
 Insert into cidade ( nomecidade) values ('Brasília');
 
---8) TRABALHO = {CODTRABALHO, nomecidadeTRABALHO}
+--8) TRABALHO = {CODTRABALHO, nomETRABALHO} OK
 create table trabalho(
 	codtrabalho integer identity primary key,
 	nomecidadetrabalho varchar(80) not null unique

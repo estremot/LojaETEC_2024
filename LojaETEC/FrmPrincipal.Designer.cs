@@ -52,6 +52,7 @@
             this.mnuSair = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBairro = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCep = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuRua = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuOperadora = new System.Windows.Forms.ToolStripMenuItem();
             this.trabalhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,6 +90,7 @@
             this.mnuCadastros.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuBairro,
             this.mnuCep,
+            this.clientesToolStripMenuItem,
             this.mnuRua,
             this.MnuOperadora,
             this.trabalhoToolStripMenuItem});
@@ -263,6 +265,16 @@
             this.mnuCep.Text = "&Cep";
             this.mnuCep.Click += new System.EventHandler(this.mnuCep_Click);
             // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Image = global::LojaETEC.Properties.Resources.cliente;
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
+            | System.Windows.Forms.Keys.L)));
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Text = "C&lientes";
+            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            // 
             // mnuRua
             // 
             this.mnuRua.Image = global::LojaETEC.Properties.Resources.estrada;
@@ -348,6 +360,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuCep;
         private System.Windows.Forms.ToolStripMenuItem trabalhoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MnuOperadora;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
     }
 }
 
